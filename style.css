@@ -1,0 +1,50 @@
+#letter-container {
+    background-color: #FFF;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#letter-heading {
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #F44D9E;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f{
+    font-size: 40px;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.heart {
+    color: #F44D9E;
+    font-size: 2em;
+    margin-right: 10px;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
